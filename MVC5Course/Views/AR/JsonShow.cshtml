@@ -1,0 +1,42 @@
+﻿
+@{
+    ViewBag.Title = "JsonShow";
+}
+
+
+<script>
+    function getjson() {
+        //$('#getjson').click(function () {
+            $.get(
+                '/AR/JsonTest',
+                '',
+                function (data) {
+                    console.log(data);
+                    drawtable($('table'),data);
+                }
+                );
+        //});
+    }
+
+    function drawtable(table,data) {
+        var html = '<tr>';
+        for (var i in data[0]) {
+            html += '<th>' + i + '</th>';
+        }
+        html += '</tr><tr>';
+        for (var i = 0; i < data.length ; i++) {
+            //html += '<td>' + data[i]
+        }
+        html += '</tr>';
+        console.log(html);
+        $(table).append(html);
+    }
+</script>
+
+
+<h2>JsonShow</h2>
+
+<input onclick="getjson();" value="Getjson" id="getjson" type="button" class="btn" />
+<table>
+
+</table>

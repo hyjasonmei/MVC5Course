@@ -17,6 +17,8 @@ namespace MVC5Course
                 name: "Default",
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                //,
+                //constraints 
             );
         }
     }

@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'D:\01_Projects\WillWill\MVC5Course\MVC5Course\Models\Fab.edmx'. 
+﻿// T4 code generation is enabled for model 'D:\Projects\Mvc5cource\MVC5Course\Models\Fab.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.

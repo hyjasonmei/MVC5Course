@@ -1,0 +1,227 @@
+﻿<error errorId="fbdeb4f0-9165-4321-a541-14da4404ede6" host="TW-JOSEPHMTSAI1" type="System.OverflowException" message="數值對 Int32 而言太大或太小。" source="mscorlib" detail="System.OverflowException: 數值對 Int32 而言太大或太小。&#xD;&#xA;   於 System.Decimal.FCallToInt32(Decimal d)&#xD;&#xA;   於 System.Decimal.System.IConvertible.ToInt32(IFormatProvider provider)&#xD;&#xA;   於 System.Convert.ToInt32(Object value, IFormatProvider provider)&#xD;&#xA;   於 System.ComponentModel.DataAnnotations.RangeAttribute.&lt;SetupConversion&gt;b__2(Object v)&#xD;&#xA;   於 System.ComponentModel.DataAnnotations.RangeAttribute.IsValid(Object value)&#xD;&#xA;   於 System.ComponentModel.DataAnnotations.ValidationAttribute.IsValid(Object value, ValidationContext validationContext)&#xD;&#xA;   於 System.ComponentModel.DataAnnotations.ValidationAttribute.GetValidationResult(Object value, ValidationContext validationContext)&#xD;&#xA;   於 System.Web.Mvc.DataAnnotationsModelValidator.Validate(Object container)&#xD;&#xA;   於 System.Web.Mvc.ModelValidator.CompositeModelValidator.&lt;Validate&gt;d__1.MoveNext()&#xD;&#xA;   於 System.Web.Mvc.DefaultModelBinder.OnModelUpdated(ControllerContext controllerContext, ModelBindingContext bindingContext)&#xD;&#xA;   於 System.Web.Mvc.DefaultModelBinder.BindComplexElementalModel(ControllerContext controllerContext, ModelBindingContext bindingContext, Object model)&#xD;&#xA;   於 System.Web.Mvc.DefaultModelBinder.BindComplexModel(ControllerContext controllerContext, ModelBindingContext bindingContext)&#xD;&#xA;   於 System.Web.Mvc.DefaultModelBinder.BindModel(ControllerContext controllerContext, ModelBindingContext bindingContext)&#xD;&#xA;   於 System.Web.Mvc.DefaultModelBinder.UpdateCollection(ControllerContext controllerContext, ModelBindingContext bindingContext, Type elementType)&#xD;&#xA;   於 System.Web.Mvc.DefaultModelBinder.BindComplexModel(ControllerContext controllerContext, ModelBindingContext bindingContext)&#xD;&#xA;   於 System.Web.Mvc.DefaultModelBinder.BindModel(ControllerContext controllerContext, ModelBindingContext bindingContext)&#xD;&#xA;   於 System.Web.Mvc.ControllerActionInvoker.GetParameterValue(ControllerContext controllerContext, ParameterDescriptor parameterDescriptor)&#xD;&#xA;   於 System.Web.Mvc.ControllerActionInvoker.GetParameterValues(ControllerContext controllerContext, ActionDescriptor actionDescriptor)&#xD;&#xA;   於 System.Web.Mvc.Async.AsyncControllerActionInvoker.&lt;&gt;c__DisplayClass21.&lt;BeginInvokeAction&gt;b__19(AsyncCallback asyncCallback, Object asyncState)&#xD;&#xA;   於 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)&#xD;&#xA;   於 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)&#xD;&#xA;   於 System.Web.Mvc.Async.AsyncResultWrapper.Begin[TResult](AsyncCallback callback, Object state, BeginInvokeDelegate beginDelegate, EndInvokeDelegate`1 endDelegate, Object tag, Int32 timeout)&#xD;&#xA;   於 System.Web.Mvc.Async.AsyncControllerActionInvoker.BeginInvokeAction(ControllerContext controllerContext, String actionName, AsyncCallback callback, Object state)&#xD;&#xA;   於 System.Web.Mvc.Controller.&lt;BeginExecuteCore&gt;b__1c(AsyncCallback asyncCallback, Object asyncState, ExecuteCoreState innerState)&#xD;&#xA;   於 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)&#xD;&#xA;   於 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)&#xD;&#xA;   於 System.Web.Mvc.Async.AsyncResultWrapper.Begin[TState](AsyncCallback callback, Object callbackState, BeginInvokeDelegate`1 beginDelegate, EndInvokeVoidDelegate`1 endDelegate, TState invokeState, Object tag, Int32 timeout, SynchronizationContext callbackSyncContext)&#xD;&#xA;   於 System.Web.Mvc.Controller.BeginExecuteCore(AsyncCallback callback, Object state)&#xD;&#xA;   於 System.Web.Mvc.Controller.&lt;BeginExecute&gt;b__14(AsyncCallback asyncCallback, Object callbackState, Controller controller)&#xD;&#xA;   於 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)&#xD;&#xA;   於 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)&#xD;&#xA;   於 System.Web.Mvc.Async.AsyncResultWrapper.Begin[TState](AsyncCallback callback, Object callbackState, BeginInvokeDelegate`1 beginDelegate, EndInvokeVoidDelegate`1 endDelegate, TState invokeState, Object tag, Int32 timeout, SynchronizationContext callbackSyncContext)&#xD;&#xA;   於 System.Web.Mvc.Controller.BeginExecute(RequestContext requestContext, AsyncCallback callback, Object state)&#xD;&#xA;   於 System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.BeginExecute(RequestContext requestContext, AsyncCallback callback, Object state)&#xD;&#xA;   於 System.Web.Mvc.MvcHandler.&lt;BeginProcessRequest&gt;b__4(AsyncCallback asyncCallback, Object asyncState, ProcessRequestState innerState)&#xD;&#xA;   於 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)&#xD;&#xA;   於 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)&#xD;&#xA;   於 System.Web.Mvc.Async.AsyncResultWrapper.Begin[TState](AsyncCallback callback, Object callbackState, BeginInvokeDelegate`1 beginDelegate, EndInvokeVoidDelegate`1 endDelegate, TState invokeState, Object tag, Int32 timeout, SynchronizationContext callbackSyncContext)&#xD;&#xA;   於 System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)&#xD;&#xA;   於 System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)&#xD;&#xA;   於 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)&#xD;&#xA;   於 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()&#xD;&#xA;   於 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean&amp; completedSynchronously)" time="2016-03-12T09:03:30.7670889Z">
+  <serverVariables>
+    <item name="ALL_HTTP">
+      <value string="HTTP_CACHE_CONTROL:max-age=0&#xD;&#xA;HTTP_CONNECTION:keep-alive&#xD;&#xA;HTTP_CONTENT_LENGTH:423&#xD;&#xA;HTTP_CONTENT_TYPE:application/x-www-form-urlencoded&#xD;&#xA;HTTP_ACCEPT:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8&#xD;&#xA;HTTP_ACCEPT_ENCODING:gzip, deflate&#xD;&#xA;HTTP_ACCEPT_LANGUAGE:zh-TW,zh;q=0.8,en-US;q=0.6,en;q=0.4,ja;q=0.2,zh-CN;q=0.2&#xD;&#xA;HTTP_COOKIE:__RequestVerificationToken=S3vTMy0rJGBpBt9eALXOUU8jJPKYacwEG_hHZvzhcMQSOjRlFIhByEFz9ZYNAiD1kVdqDVhH3zbvzcoeJbUZc7kjneCwr9SpeG4GNC_lTQ41; ASP.NET_SessionId=kkmbfezp1dpmwieopsbe41od&#xD;&#xA;HTTP_HOST:localhost:10681&#xD;&#xA;HTTP_REFERER:http://localhost:10681/Products&#xD;&#xA;HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36&#xD;&#xA;HTTP_ORIGIN:http://localhost:10681&#xD;&#xA;HTTP_UPGRADE_INSECURE_REQUESTS:1&#xD;&#xA;" />
+    </item>
+    <item name="ALL_RAW">
+      <value string="Cache-Control: max-age=0&#xD;&#xA;Connection: keep-alive&#xD;&#xA;Content-Length: 423&#xD;&#xA;Content-Type: application/x-www-form-urlencoded&#xD;&#xA;Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8&#xD;&#xA;Accept-Encoding: gzip, deflate&#xD;&#xA;Accept-Language: zh-TW,zh;q=0.8,en-US;q=0.6,en;q=0.4,ja;q=0.2,zh-CN;q=0.2&#xD;&#xA;Cookie: __RequestVerificationToken=S3vTMy0rJGBpBt9eALXOUU8jJPKYacwEG_hHZvzhcMQSOjRlFIhByEFz9ZYNAiD1kVdqDVhH3zbvzcoeJbUZc7kjneCwr9SpeG4GNC_lTQ41; ASP.NET_SessionId=kkmbfezp1dpmwieopsbe41od&#xD;&#xA;Host: localhost:10681&#xD;&#xA;Referer: http://localhost:10681/Products&#xD;&#xA;User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36&#xD;&#xA;Origin: http://localhost:10681&#xD;&#xA;Upgrade-Insecure-Requests: 1&#xD;&#xA;" />
+    </item>
+    <item name="APPL_MD_PATH">
+      <value string="/LM/W3SVC/3/ROOT" />
+    </item>
+    <item name="APPL_PHYSICAL_PATH">
+      <value string="D:\Projects\Mvc5cource\MVC5Course\" />
+    </item>
+    <item name="AUTH_TYPE">
+      <value string="" />
+    </item>
+    <item name="AUTH_USER">
+      <value string="" />
+    </item>
+    <item name="AUTH_PASSWORD">
+      <value string="" />
+    </item>
+    <item name="LOGON_USER">
+      <value string="" />
+    </item>
+    <item name="REMOTE_USER">
+      <value string="" />
+    </item>
+    <item name="CERT_COOKIE">
+      <value string="" />
+    </item>
+    <item name="CERT_FLAGS">
+      <value string="" />
+    </item>
+    <item name="CERT_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SERIALNUMBER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CERT_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CONTENT_LENGTH">
+      <value string="423" />
+    </item>
+    <item name="CONTENT_TYPE">
+      <value string="application/x-www-form-urlencoded" />
+    </item>
+    <item name="GATEWAY_INTERFACE">
+      <value string="CGI/1.1" />
+    </item>
+    <item name="HTTPS">
+      <value string="off" />
+    </item>
+    <item name="HTTPS_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="INSTANCE_ID">
+      <value string="3" />
+    </item>
+    <item name="INSTANCE_META_PATH">
+      <value string="/LM/W3SVC/3" />
+    </item>
+    <item name="LOCAL_ADDR">
+      <value string="::1" />
+    </item>
+    <item name="PATH_INFO">
+      <value string="/Products" />
+    </item>
+    <item name="PATH_TRANSLATED">
+      <value string="D:\Projects\Mvc5cource\MVC5Course\Products" />
+    </item>
+    <item name="QUERY_STRING">
+      <value string="" />
+    </item>
+    <item name="REMOTE_ADDR">
+      <value string="::1" />
+    </item>
+    <item name="REMOTE_HOST">
+      <value string="::1" />
+    </item>
+    <item name="REMOTE_PORT">
+      <value string="57784" />
+    </item>
+    <item name="REQUEST_METHOD">
+      <value string="POST" />
+    </item>
+    <item name="SCRIPT_NAME">
+      <value string="/Products" />
+    </item>
+    <item name="SERVER_NAME">
+      <value string="localhost" />
+    </item>
+    <item name="SERVER_PORT">
+      <value string="10681" />
+    </item>
+    <item name="SERVER_PORT_SECURE">
+      <value string="0" />
+    </item>
+    <item name="SERVER_PROTOCOL">
+      <value string="HTTP/1.1" />
+    </item>
+    <item name="SERVER_SOFTWARE">
+      <value string="Microsoft-IIS/8.0" />
+    </item>
+    <item name="URL">
+      <value string="/Products" />
+    </item>
+    <item name="HTTP_CACHE_CONTROL">
+      <value string="max-age=0" />
+    </item>
+    <item name="HTTP_CONNECTION">
+      <value string="keep-alive" />
+    </item>
+    <item name="HTTP_CONTENT_LENGTH">
+      <value string="423" />
+    </item>
+    <item name="HTTP_CONTENT_TYPE">
+      <value string="application/x-www-form-urlencoded" />
+    </item>
+    <item name="HTTP_ACCEPT">
+      <value string="text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8" />
+    </item>
+    <item name="HTTP_ACCEPT_ENCODING">
+      <value string="gzip, deflate" />
+    </item>
+    <item name="HTTP_ACCEPT_LANGUAGE">
+      <value string="zh-TW,zh;q=0.8,en-US;q=0.6,en;q=0.4,ja;q=0.2,zh-CN;q=0.2" />
+    </item>
+    <item name="HTTP_COOKIE">
+      <value string="__RequestVerificationToken=S3vTMy0rJGBpBt9eALXOUU8jJPKYacwEG_hHZvzhcMQSOjRlFIhByEFz9ZYNAiD1kVdqDVhH3zbvzcoeJbUZc7kjneCwr9SpeG4GNC_lTQ41; ASP.NET_SessionId=kkmbfezp1dpmwieopsbe41od" />
+    </item>
+    <item name="HTTP_HOST">
+      <value string="localhost:10681" />
+    </item>
+    <item name="HTTP_REFERER">
+      <value string="http://localhost:10681/Products" />
+    </item>
+    <item name="HTTP_USER_AGENT">
+      <value string="Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36" />
+    </item>
+    <item name="HTTP_ORIGIN">
+      <value string="http://localhost:10681" />
+    </item>
+    <item name="HTTP_UPGRADE_INSECURE_REQUESTS">
+      <value string="1" />
+    </item>
+  </serverVariables>
+  <form>
+    <item name="products[0].ProductId">
+      <value string="1" />
+    </item>
+    <item name="products[0].Price">
+      <value string="0" />
+    </item>
+    <item name="products[0].Stock">
+      <value string="999999999999" />
+    </item>
+    <item name="products[1].ProductId">
+      <value string="2" />
+    </item>
+    <item name="products[1].Price">
+      <value string="3.00" />
+    </item>
+    <item name="products[1].Stock">
+      <value string="4.00" />
+    </item>
+    <item name="products[2].ProductId">
+      <value string="3" />
+    </item>
+    <item name="products[2].Price">
+      <value string="5.50" />
+    </item>
+    <item name="products[2].Stock">
+      <value string="1210.20" />
+    </item>
+    <item name="products[3].ProductId">
+      <value string="4" />
+    </item>
+    <item name="products[3].Price">
+      <value string="5.50" />
+    </item>
+    <item name="products[3].Stock">
+      <value string="1210.20" />
+    </item>
+    <item name="products[4].ProductId">
+      <value string="5" />
+    </item>
+    <item name="products[4].Price">
+      <value string="5.50" />
+    </item>
+    <item name="products[4].Stock">
+      <value string="1210.20" />
+    </item>
+  </form>
+  <cookies>
+    <item name="__RequestVerificationToken">
+      <value string="S3vTMy0rJGBpBt9eALXOUU8jJPKYacwEG_hHZvzhcMQSOjRlFIhByEFz9ZYNAiD1kVdqDVhH3zbvzcoeJbUZc7kjneCwr9SpeG4GNC_lTQ41" />
+    </item>
+    <item name="ASP.NET_SessionId">
+      <value string="kkmbfezp1dpmwieopsbe41od" />
+    </item>
+  </cookies>
+</error>
