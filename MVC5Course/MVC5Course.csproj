@@ -56,6 +56,10 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Web.Mvc, Version=5.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.Futures.5.0.0\lib\net40\Microsoft.Web.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -187,6 +191,9 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\MBController.cs" />
+    <Compile Include="Controllers\MemberController.cs" />
+    <Compile Include="ActionFilter\RecordExecuteTime.cs" />
+    <Compile Include="Controllers\NewLayoutController.cs" />
     <Compile Include="Models\ProductBatchViewModel.cs" />
     <Compile Include="Controllers\ProductsController.cs" />
     <Compile Include="Controllers\TestController.cs" />
@@ -1139,6 +1146,11 @@
     <Content Include="Views\AR\JsonShow.cshtml" />
     <Content Include="Scripts\version.json" />
     <Content Include="Views\MB\Index.cshtml" />
+    <Content Include="Views\Member\Login.cshtml" />
+    <Content Include="Views\Home\ErrorTest.cshtml" />
+    <Content Include="Views\Home\Error2.cshtml" />
+    <Content Include="Views\Home\RazorTest.cshtml" />
+    <Content Include="Views\NewLayout\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
