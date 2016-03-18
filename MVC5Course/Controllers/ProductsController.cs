@@ -16,8 +16,10 @@ namespace MVC5Course.Controllers
         //ProductRepository repo = RepositoryHelper.GetProductRepository();
 
         // GET: Products
-        public ActionResult Index()
+        public ActionResult Index(string type,int? lineid)
         {
+            ViewBag.type = type;
+            ViewBag.lineid = lineid;
             var data = repo.All().Take(5);
             //repo.All
             return View(data);
@@ -48,6 +50,9 @@ namespace MVC5Course.Controllers
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
             Product product = repo.Find(id.Value);
+
+            //ViewBag.OrderLines = product.OrderLine.Take(5);
+
             if (product == null)
             {
                 return HttpNotFound();

@@ -1,8 +1,14 @@
-﻿@model IEnumerable<MVC5Course.Models.Product>
+﻿@model IEnumerable<Product>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "產品清單";
+    var lineId = (ViewBag.lineid==null)?0:(int)ViewBag.lineid;
+    var highlight = "style='background-color:gray';";
 }
+
+@*@section treepath{
+    <li><a href="#">@ViewBag.Title</a></li>
+    }*@
 
 <h2>Index</h2>
 
@@ -15,7 +21,8 @@
     @Html.ActionLink("Create New", "Create")
 </p>
 
-@using (Html.BeginForm()) {
+@using (Html.BeginForm())
+{
 
     <table class="table">
         <tr>
@@ -35,11 +42,18 @@
             <th></th>
         </tr>
         @{
-            var products = Model.ToArray();
+             var products = Model.ToArray();
         }
-        @for(var i =0;i<products.Length;i++) {
+        @for (var i = 0; i < products.Length; i++)
+        {
+            if (products[i].ProductId == lineId)
+            {
+                ViewBag.selectedItem = products[i];
+            }
+
             @Html.HiddenFor(modelItem => products[i].ProductId)
-            <tr>
+            <tr @if (products[i].ProductId == lineId) { @: style="background-color:gray"
+                                                                                  }>
                 <td>
                     @Html.DisplayFor(modelItem => products[i].ProductName)
                 </td>
@@ -52,19 +66,31 @@
                 </td>
                 <td>
                     @Html.EditorFor(modelItem => products[i].Stock)
-                    @Html.ValidationMessageFor(modelItem => products[i].Stock,"",new { @class = "text-danger" })
+                    @Html.ValidationMessageFor(modelItem => products[i].Stock, "", new { @class = "text-danger" })
                 </td>
                 <td>
-                    @Html.ActionLink("Edit", "Edit", new { id=products[i].ProductId }) |
-                    @Html.ActionLink("Details", "Details", new { id=products[i].ProductId }) |
-                    @Html.ActionLink("Delete", "Delete", new { id=products[i].ProductId })
+                    @Html.ActionLink("Edit", "Edit", new { id = products[i].ProductId }) |
+                    @Html.ActionLink("Details", "Index", new { type="Detail", lineid = products[i].ProductId }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = products[i].ProductId })
+                    @Html.ActionLink("顯示詳細", "Index", new { lineid = products[i].ProductId })
                 </td>
             </tr>
-            }
+        }
 
-
+   
 
     </table>
 
         <button class="btn btn-primary">批次更新</button>
+    @Html.Action("Index", "OrderLines", new { id = lineId })
+    //TODO: fix
+    @*@if (ViewBag.type == "Detail")
+    {
+        @Html.Partial("Details", ViewData["selectedItem"])
+    }
+    else
+    {
+        @Html.Action("Index", "OrderLines", new { id = lineId })
+    }*@
+    @*@Html.Action("Index", "OrderLines", new { ProductId = 5 })*@
 }

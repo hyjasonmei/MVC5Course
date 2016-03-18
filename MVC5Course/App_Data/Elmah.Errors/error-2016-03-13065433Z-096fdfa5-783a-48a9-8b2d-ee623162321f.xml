@@ -1,0 +1,168 @@
+﻿<error errorId="096fdfa5-783a-48a9-8b2d-ee623162321f" host="TW-JOSEPHMTSAI1" type="System.Web.HttpCompileException" message="d:\Projects\Mvc5cource\MVC5Course\Views\Home\About.cshtml(7): error CS1973: 'System.Web.Mvc.HtmlHelper&lt;dynamic&gt;' 沒有名稱為 'ActionLink' 的適用方法，但似乎有使用該名稱的擴充方法。擴充方法不可以是動態分派的。請考慮將動態引數轉型，或不用擴充方法語法來呼叫擴充方法。" source="System.Web" detail="System.Web.HttpCompileException (0x80004005): d:\Projects\Mvc5cource\MVC5Course\Views\Home\About.cshtml(7): error CS1973: 'System.Web.Mvc.HtmlHelper&lt;dynamic&gt;' 沒有名稱為 'ActionLink' 的適用方法，但似乎有使用該名稱的擴充方法。擴充方法不可以是動態分派的。請考慮將動態引數轉型，或不用擴充方法語法來呼叫擴充方法。&#xD;&#xA;   於 System.Web.Compilation.AssemblyBuilder.Compile()&#xD;&#xA;   於 System.Web.Compilation.BuildProvidersCompiler.PerformBuild()&#xD;&#xA;   於 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)&#xD;&#xA;   於 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)&#xD;&#xA;   於 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)&#xD;&#xA;   於 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)&#xD;&#xA;   於 System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)&#xD;&#xA;   於 System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)&#xD;&#xA;   於 System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)&#xD;&#xA;   於 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)&#xD;&#xA;   於 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)&#xD;&#xA;   於 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)&#xD;&#xA;   於 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)&#xD;&#xA;   於 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)&#xD;&#xA;   於 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)&#xD;&#xA;   於 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)&#xD;&#xA;   於 System.Web.Mvc.Async.AsyncControllerActionInvoker.&lt;&gt;c__DisplayClass21.&lt;&gt;c__DisplayClass2b.&lt;BeginInvokeAction&gt;b__1c()&#xD;&#xA;   於 System.Web.Mvc.Async.AsyncControllerActionInvoker.&lt;&gt;c__DisplayClass21.&lt;BeginInvokeAction&gt;b__1e(IAsyncResult asyncResult)&#xD;&#xA;   於 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)&#xD;&#xA;   於 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()&#xD;&#xA;   於 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)&#xD;&#xA;   於 System.Web.Mvc.Controller.&lt;BeginExecuteCore&gt;b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)&#xD;&#xA;   於 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)&#xD;&#xA;   於 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()&#xD;&#xA;   於 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)&#xD;&#xA;   於 System.Web.Mvc.Controller.&lt;BeginExecute&gt;b__15(IAsyncResult asyncResult, Controller controller)&#xD;&#xA;   於 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)&#xD;&#xA;   於 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()&#xD;&#xA;   於 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)&#xD;&#xA;   於 System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)&#xD;&#xA;   於 System.Web.Mvc.MvcHandler.&lt;BeginProcessRequest&gt;b__5(IAsyncResult asyncResult, ProcessRequestState innerState)&#xD;&#xA;   於 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)&#xD;&#xA;   於 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()&#xD;&#xA;   於 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)&#xD;&#xA;   於 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)&#xD;&#xA;   於 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()&#xD;&#xA;   於 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean&amp; completedSynchronously)" time="2016-03-13T06:54:33.8948980Z" statusCode="500" webHostHtmlMessage="&lt;!DOCTYPE html&gt;&#xD;&#xA;&lt;html&gt;&#xD;&#xA;    &lt;head&gt;&#xD;&#xA;        &lt;title&gt;編譯錯誤&lt;/title&gt;&#xD;&#xA;        &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot; /&gt;&#xD;&#xA;        &lt;style&gt;&#xD;&#xA;         body {font-family:&quot;Verdana&quot;;font-weight:normal;font-size: .7em;color:black;} &#xD;&#xA;         p {font-family:&quot;Verdana&quot;;font-weight:normal;color:black;margin-top: -5px}&#xD;&#xA;         b {font-family:&quot;Verdana&quot;;font-weight:bold;color:black;margin-top: -5px}&#xD;&#xA;         H1 { font-family:&quot;Verdana&quot;;font-weight:normal;font-size:18pt;color:red }&#xD;&#xA;         H2 { font-family:&quot;Verdana&quot;;font-weight:normal;font-size:14pt;color:maroon }&#xD;&#xA;         pre {font-family:&quot;Consolas&quot;,&quot;Lucida Console&quot;,Monospace;font-size:11pt;margin:0;padding:0.5em;line-height:14pt}&#xD;&#xA;         .marker {font-weight: bold; color: black;text-decoration: none;}&#xD;&#xA;         .version {color: gray;}&#xD;&#xA;         .error {margin-bottom: 10px;}&#xD;&#xA;         .expandable { text-decoration:underline; font-weight:bold; color:navy; cursor:hand; }&#xD;&#xA;         @media screen and (max-width: 639px) {&#xD;&#xA;          pre { width: 440px; overflow: auto; white-space: pre-wrap; word-wrap: break-word; }&#xD;&#xA;         }&#xD;&#xA;         @media screen and (max-width: 479px) {&#xD;&#xA;          pre { width: 280px; }&#xD;&#xA;         }&#xD;&#xA;        &lt;/style&gt;&#xD;&#xA;    &lt;/head&gt;&#xD;&#xA;&#xD;&#xA;    &lt;body bgcolor=&quot;white&quot;&gt;&#xD;&#xA;&#xD;&#xA;            &lt;span&gt;&lt;H1&gt;'/' 應用程式中發生伺服器錯誤。&lt;hr width=100% size=1 color=silver&gt;&lt;/H1&gt;&#xD;&#xA;&#xD;&#xA;            &lt;h2&gt; &lt;i&gt;編譯錯誤&lt;/i&gt; &lt;/h2&gt;&lt;/span&gt;&#xD;&#xA;&#xD;&#xA;            &lt;font face=&quot;Arial, Helvetica, Geneva, SunSans-Regular, sans-serif &quot;&gt;&#xD;&#xA;&#xD;&#xA;            &lt;b&gt; 描述: &lt;/b&gt;資源編譯無法完成 (錯誤發生於服務要求)。請檢閱下列的特定錯誤詳細資料，並視情況修改您的原始程式碼。&#xD;&#xA;            &lt;br&gt;&lt;br&gt;&#xD;&#xA;&#xD;&#xA;            &lt;b&gt; 編譯器錯誤訊息: &lt;/b&gt;CS1973: &amp;#39;System.Web.Mvc.HtmlHelper&amp;lt;dynamic&amp;gt;&amp;#39; 沒有名稱為 &amp;#39;ActionLink&amp;#39; 的適用方法，但似乎有使用該名稱的擴充方法。擴充方法不可以是動態分派的。請考慮將動態引數轉型，或不用擴充方法語法來呼叫擴充方法。&lt;br&gt;&lt;br&gt;&#xD;&#xA;&lt;b&gt;原始程式錯誤:&lt;/b&gt;&lt;br&gt;&lt;br&gt;&#xD;&#xA;            &lt;table width=100% bgcolor=&quot;#ffffcc&quot;&gt;&#xD;&#xA;               &lt;tr&gt;&lt;td&gt;&#xD;&#xA;                              &lt;/td&gt;&lt;/tr&gt;&#xD;&#xA;               &lt;tr&gt;&#xD;&#xA;                  &lt;td&gt;&#xD;&#xA;                      &lt;code&gt;&lt;pre&gt;&#xD;&#xA;&#xD;&#xA;行 5:  @section treepath{&#xD;&#xA;行 6:     &#xD;&#xA;&lt;font color=red&gt;行 7:      &amp;lt;li&amp;gt; @Html.ActionLink(ViewBag.Title,&amp;quot;About&amp;quot;,&amp;quot;Home&amp;quot;)&amp;lt;/li&amp;gt;&#xD;&#xA;&lt;/font&gt;行 8:  }&#xD;&#xA;行 9:  &lt;/pre&gt;&lt;/code&gt;&#xD;&#xA;&#xD;&#xA;                  &lt;/td&gt;&#xD;&#xA;               &lt;/tr&gt;&#xD;&#xA;            &lt;/table&gt;&#xD;&#xA;&#xD;&#xA;            &lt;br&gt;&#xD;&#xA;&#xD;&#xA;            &lt;b&gt;原始程式檔:&lt;/b&gt; d:\Projects\Mvc5cource\MVC5Course\Views\Home\About.cshtml&#xD;&#xA;            &amp;nbsp;&amp;nbsp; &lt;b&gt;行:&lt;/b&gt;  7&#xD;&#xA;            &lt;br&gt;&lt;br&gt;&#xD;&#xA;&lt;br&gt;&lt;div class=&quot;expandable&quot; onclick=&quot;OnToggleTOCLevel1('compilerOutputDiv')&quot;&gt;顯示詳細的編譯器輸出資料:&lt;/div&gt;&#xD;&#xA;&lt;div id=&quot;compilerOutputDiv&quot; style=&quot;display: none;&quot;&gt;&#xD;&#xA;            &lt;br&gt;&lt;table width=100% bgcolor=&quot;#ffffcc&quot;&gt;&#xD;&#xA;               &lt;tr&gt;&#xD;&#xA;                  &lt;td&gt;&#xD;&#xA;                      &lt;code&gt;&lt;pre&gt;&#xD;&#xA;&#xD;&#xA;C:\Program Files (x86)\IIS Express&amp;gt; &amp;quot;C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe&amp;quot; /t:library /utf8output /R:&amp;quot;C:\Users\jason_mei\AppData\Local\Temp\Temporary ASP.NET Files\vs\d27414f1\25592d07\assembly\dl3\30ff637a\aa0ad368_c07ad101\EntityFramework.SqlServer.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.ServiceModel.Web\v4.0_4.0.0.0__31bf3856ad364e35\System.ServiceModel.Web.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Web.Services\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.ServiceModel.Activation\v4.0_4.0.0.0__31bf3856ad364e35\System.ServiceModel.Activation.dll&amp;quot; /R:&amp;quot;C:\Users\jason_mei\AppData\Local\Temp\Temporary ASP.NET Files\vs\d27414f1\25592d07\assembly\dl3\534d0680\dfe5cb68_c07ad101\EntityFramework.dll&amp;quot; /R:&amp;quot;C:\Users\jason_mei\AppData\Local\Temp\Temporary ASP.NET Files\vs\d27414f1\25592d07\assembly\dl3\64f15171\931f2d64_c07ad101\Antlr3.Runtime.dll&amp;quot; /R:&amp;quot;C:\Users\jason_mei\AppData\Local\Temp\Temporary ASP.NET Files\vs\d27414f1\25592d07\assembly\dl3\dfa647d9\5698a671_c07ad101\System.Web.Optimization.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Activities\v4.0_4.0.0.0__31bf3856ad364e35\System.Activities.dll&amp;quot; /R:&amp;quot;C:\Users\jason_mei\AppData\Local\Temp\Temporary ASP.NET Files\vs\d27414f1\25592d07\assembly\dl3\1cc8becd\6a68f401_ef7cd101\MVC5Course.dll&amp;quot; /R:&amp;quot;C:\Users\jason_mei\AppData\Local\Temp\Temporary ASP.NET Files\vs\d27414f1\25592d07\assembly\dl3\b0374d80\ea619c7d_c07ad101\Microsoft.Owin.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll&amp;quot; /R:&amp;quot;C:\Users\jason_mei\AppData\Local\Temp\Temporary ASP.NET Files\vs\d27414f1\25592d07\assembly\dl3\da86f9bc\e07eda92_c07ad101\Newtonsoft.Json.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.ServiceModel.Activities\v4.0_4.0.0.0__31bf3856ad364e35\System.ServiceModel.Activities.dll&amp;quot; /R:&amp;quot;C:\Users\jason_mei\AppData\Local\Temp\Temporary ASP.NET Files\vs\d27414f1\25592d07\assembly\dl3\9dcda771\90f1808f_c07ad101\Microsoft.Owin.Security.Twitter.dll&amp;quot; /R:&amp;quot;C:\Users\jason_mei\AppData\Local\Temp\Temporary ASP.NET Files\vs\d27414f1\25592d07\assembly\dl3\3161315a\6de3cb86_c07ad101\Microsoft.Owin.Security.Cookies.dll&amp;quot; /R:&amp;quot;C:\Users\jason_mei\AppData\Local\Temp\Temporary ASP.NET Files\vs\d27414f1\25592d07\assembly\dl3\f0c5a968\527dc566_c07ad101\Elmah.Mvc.dll&amp;quot; /R:&amp;quot;C:\Users\jason_mei\AppData\Local\Temp\Temporary ASP.NET Files\vs\d27414f1\25592d07\assembly\dl3\6a9adf19\84d2e48c_c07ad101\Microsoft.Owin.Security.MicrosoftAccount.dll&amp;quot; /R:&amp;quot;C:\Users\jason_mei\AppData\Local\Temp\Temporary ASP.NET Files\vs\d27414f1\25592d07\assembly\dl3\a29d898d\242cb709_c67cd101\Microsoft.Web.Mvc.dll&amp;quot; /R:&amp;quot;C:\Users\jason_mei\AppData\Local\Temp\Temporary ASP.NET Files\vs\d27414f1\25592d07\assembly\dl3\7e5afa30\2f595889_c07ad101\Microsoft.Owin.Security.Google.dll&amp;quot; /R:&amp;quot;C:\Users\jason_mei\AppData\Local\Temp\Temporary ASP.NET Files\vs\d27414f1\25592d07\assembly\dl3\bb73f984\5e91cf7a_c07ad101\System.Web.WebPages.Deployment.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Data.DataSetExtensions\v4.0_4.0.0.0__b77a5c561934e089\System.Data.DataSetExtensions.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll&amp;quot; /R:&amp;quot;C:\Users\jason_mei\AppData\Local\Temp\Temporary ASP.NET Files\vs\d27414f1\25592d07\assembly\dl3\eceee54e\292d4f93_c07ad101\Owin.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\Microsoft.CSharp\v4.0_4.0.0.0__b03f5f7f11d50a3a\Microsoft.CSharp.dll&amp;quot; /R:&amp;quot;C:\Users\jason_mei\AppData\Local\Temp\Temporary ASP.NET Files\vs\d27414f1\25592d07\assembly\dl3\f88245f9\5ea4b374_c07ad101\System.Net.Http.Formatting.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_32\System.EnterpriseServices\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.EnterpriseServices.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Web.DynamicData\v4.0_4.0.0.0__31bf3856ad364e35\System.Web.DynamicData.dll&amp;quot; /R:&amp;quot;C:\Users\jason_mei\AppData\Local\Temp\Temporary ASP.NET Files\vs\d27414f1\25592d07\assembly\dl3\fa6ffba2\179d9693_c07ad101\WebGrease.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.WorkflowServices\v4.0_4.0.0.0__31bf3856ad364e35\System.WorkflowServices.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll&amp;quot; /R:&amp;quot;C:\Users\jason_mei\AppData\Local\Temp\Temporary ASP.NET Files\vs\d27414f1\25592d07\assembly\dl3\9992b95f\7700d985_c07ad101\Microsoft.Owin.Security.dll&amp;quot; /R:&amp;quot;C:\Users\jason_mei\AppData\Local\Temp\Temporary ASP.NET Files\vs\d27414f1\25592d07\App_global.asax.pnsohqxk.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.ComponentModel.DataAnnotations\v4.0_4.0.0.0__31bf3856ad364e35\System.ComponentModel.DataAnnotations.dll&amp;quot; /R:&amp;quot;C:\Users\jason_mei\AppData\Local\Temp\Temporary ASP.NET Files\vs\d27414f1\25592d07\assembly\dl3\136f1bd2\e971936c_c07ad101\Microsoft.AspNet.Identity.EntityFramework.dll&amp;quot; /R:&amp;quot;C:\Users\jason_mei\AppData\Local\Temp\Temporary ASP.NET Files\vs\d27414f1\25592d07\assembly\dl3\d97b87bf\c52fcd7a_c07ad101\System.Web.Helpers.dll&amp;quot; /R:&amp;quot;C:\Users\jason_mei\AppData\Local\Temp\Temporary ASP.NET Files\vs\d27414f1\25592d07\assembly\dl3\2f152d63\13ec5d65_c07ad101\Elmah.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Web.Extensions\v4.0_4.0.0.0__31bf3856ad364e35\System.Web.Extensions.dll&amp;quot; /R:&amp;quot;C:\Users\jason_mei\AppData\Local\Temp\Temporary ASP.NET Files\vs\d27414f1\25592d07\assembly\dl3\212cdb78\4d828d76_c07ad101\System.Web.Http.dll&amp;quot; /R:&amp;quot;C:\Users\jason_mei\AppData\Local\Temp\Temporary ASP.NET Files\vs\d27414f1\25592d07\assembly\dl3\8b75b7b8\d11c3a70_c07ad101\System.Web.Razor.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Web.ApplicationServices\v4.0_4.0.0.0__31bf3856ad364e35\System.Web.ApplicationServices.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Serialization\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Serialization.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\Microsoft.Web.Infrastructure\v4.0_1.0.0.0__31bf3856ad364e35\Microsoft.Web.Infrastructure.dll&amp;quot; /R:&amp;quot;C:\Users\jason_mei\AppData\Local\Temp\Temporary ASP.NET Files\vs\d27414f1\25592d07\assembly\dl3\c7d58a17\9054d47a_c07ad101\System.Web.WebPages.Razor.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Web.WebPages.Deployment\v4.0_1.0.0.0__31bf3856ad364e35\System.Web.WebPages.Deployment.dll&amp;quot; /R:&amp;quot;C:\Users\jason_mei\AppData\Local\Temp\Temporary ASP.NET Files\vs\d27414f1\25592d07\assembly\dl3\ce4bc17d\0c932c6f_c07ad101\System.Web.Mvc.dll&amp;quot; /R:&amp;quot;C:\Users\jason_mei\AppData\Local\Temp\Temporary ASP.NET Files\vs\d27414f1\25592d07\assembly\dl3\b0d6867d\b640fc6a_c07ad101\Microsoft.AspNet.Identity.Core.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Web.WebPages.Deployment\v4.0_2.0.0.0__31bf3856ad364e35\System.Web.WebPages.Deployment.dll&amp;quot; /R:&amp;quot;C:\Users\jason_mei\AppData\Local\Temp\Temporary ASP.NET Files\vs\d27414f1\25592d07\assembly\dl3\5cddb748\6db10882_c07ad101\Microsoft.Owin.Host.SystemWeb.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.IdentityModel\v4.0_4.0.0.0__b77a5c561934e089\System.IdentityModel.dll&amp;quot; /R:&amp;quot;C:\Users\jason_mei\AppData\Local\Temp\Temporary ASP.NET Files\vs\d27414f1\25592d07\assembly\dl3\f9f4fd32\a79b868e_c07ad101\Microsoft.Owin.Security.OAuth.dll&amp;quot; /R:&amp;quot;C:\Users\jason_mei\AppData\Local\Temp\Temporary ASP.NET Files\vs\d27414f1\25592d07\assembly\dl3\093bbf3d\f7f2d17a_c07ad101\System.Web.WebPages.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml.Linq\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.Linq.dll&amp;quot; /R:&amp;quot;C:\Users\jason_mei\AppData\Local\Temp\Temporary ASP.NET Files\vs\d27414f1\25592d07\assembly\dl3\89b9d139\6871e579_c07ad101\System.Web.Http.WebHost.dll&amp;quot; /R:&amp;quot;C:\Users\jason_mei\AppData\Local\Temp\Temporary ASP.NET Files\vs\d27414f1\25592d07\assembly\dl3\2f383635\8029346e_c07ad101\Microsoft.AspNet.Identity.Owin.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\Microsoft.VisualStudio.Web.PageInspector.Loader\v4.0_1.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Web.PageInspector.Loader.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.ServiceModel\v4.0_4.0.0.0__b77a5c561934e089\System.ServiceModel.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_32\System.Web\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.dll&amp;quot; /R:&amp;quot;C:\Users\jason_mei\AppData\Local\Temp\Temporary ASP.NET Files\vs\d27414f1\25592d07\assembly\dl3\b99e926e\05709d87_c07ad101\Microsoft.Owin.Security.Facebook.dll&amp;quot; /out:&amp;quot;C:\Users\jason_mei\AppData\Local\Temp\Temporary ASP.NET Files\vs\d27414f1\25592d07\App_Web_about.cshtml.a8d08dba.mnuxfs73.dll&amp;quot; /D:DEBUG /debug+ /optimize- /w:4 /nowarn:1659;1699;1701;612;618 /warnaserror-  &amp;quot;C:\Users\jason_mei\AppData\Local\Temp\Temporary ASP.NET Files\vs\d27414f1\25592d07\App_Web_about.cshtml.a8d08dba.mnuxfs73.0.cs&amp;quot; &amp;quot;C:\Users\jason_mei\AppData\Local\Temp\Temporary ASP.NET Files\vs\d27414f1\25592d07\App_Web_about.cshtml.a8d08dba.mnuxfs73.1.cs&amp;quot;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;適用於 Microsoft (R) .NET Framework 4.5 的&#xD;&#xA;&#xD;&#xA;Microsoft (R) Visual C# 編譯器版本 4.0.30319.34209&#xD;&#xA;Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。&#xD;&#xA;&#xD;&#xA;d:\Projects\Mvc5cource\MVC5Course\Views\Home\About.cshtml(7,11): error CS1973: &amp;#39;System.Web.Mvc.HtmlHelper&amp;lt;dynamic&amp;gt;&amp;#39; 沒有名稱為 &amp;#39;ActionLink&amp;#39; 的適用方法，但似乎有使用該名稱的擴充方法。擴充方法不可以是動態分派的。請考慮將動態引數轉型，或不用擴充方法語法來呼叫擴充方法。&#xD;&#xA;&lt;/pre&gt;&lt;/code&gt;&#xD;&#xA;&#xD;&#xA;                  &lt;/td&gt;&#xD;&#xA;               &lt;/tr&gt;&#xD;&#xA;            &lt;/table&gt;&#xD;&#xA;&#xD;&#xA;            &#xD;&#xA;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;br&gt;&lt;div class=&quot;expandable&quot; onclick=&quot;OnToggleTOCLevel1('dynamicCodeDiv')&quot;&gt;顯示完整的編譯原始程式:&lt;/div&gt;&#xD;&#xA;&lt;div id=&quot;dynamicCodeDiv&quot; style=&quot;display: none;&quot;&gt;&#xD;&#xA;            &lt;br&gt;&lt;table width=100% bgcolor=&quot;#ffffcc&quot;&gt;&#xD;&#xA;               &lt;tr&gt;&#xD;&#xA;                  &lt;td&gt;&#xD;&#xA;                      &lt;code&gt;&lt;pre&gt;&#xD;&#xA;&#xD;&#xA;行 1:    #pragma checksum &amp;quot;D:\Projects\Mvc5cource\MVC5Course\Views\Home\About.cshtml&amp;quot; &amp;quot;{ff1816ec-aa5e-4d10-87f7-6f4963833460}&amp;quot; &amp;quot;5572CB459A332296BF74333BEFD0D7413C405AE0&amp;quot;&#xD;行 2:    //------------------------------------------------------------------------------&#xD;行 3:    // &amp;lt;auto-generated&amp;gt;&#xD;行 4:    //     這段程式碼是由工具產生的。&#xD;行 5:    //     執行階段版本:4.0.30319.34209&#xD;行 6:    //&#xD;行 7:    //     對這個檔案所做的變更可能會造成錯誤的行為，而且如果重新產生程式碼，&#xD;行 8:    //     變更將會遺失。&#xD;行 9:    // &amp;lt;/auto-generated&amp;gt;&#xD;行 10:   //------------------------------------------------------------------------------&#xD;行 11:   &#xD;行 12:   namespace ASP {&#xD;行 13:       using System;&#xD;行 14:       using System.Collections.Generic;&#xD;行 15:       using System.IO;&#xD;行 16:       using System.Linq;&#xD;行 17:       using System.Net;&#xD;行 18:       using System.Web;&#xD;行 19:       using System.Web.Helpers;&#xD;行 20:       using System.Web.Security;&#xD;行 21:       using System.Web.UI;&#xD;行 22:       using System.Web.WebPages;&#xD;行 23:       using System.Web.Mvc;&#xD;行 24:       using System.Web.Mvc.Ajax;&#xD;行 25:       using System.Web.Mvc.Html;&#xD;行 26:       using System.Web.Optimization;&#xD;行 27:       using System.Web.Routing;&#xD;行 28:       using MVC5Course;&#xD;行 29:       &#xD;行 30:       &#xD;行 31:       public class _Page_Views_Home_About_cshtml : System.Web.Mvc.WebViewPage&amp;lt;dynamic&amp;gt; {&#xD;行 32:           &#xD;行 33:   #line hidden&#xD;行 34:           &#xD;行 35:           public _Page_Views_Home_About_cshtml() {&#xD;行 36:           }&#xD;行 37:           &#xD;行 38:           protected ASP.global_asax ApplicationInstance {&#xD;行 39:               get {&#xD;行 40:                   return ((ASP.global_asax)(Context.ApplicationInstance));&#xD;行 41:               }&#xD;行 42:           }&#xD;行 43:           &#xD;行 44:           public override void Execute() {&#xD;行 45:               &#xD;行 46:               #line 1 &amp;quot;D:\Projects\Mvc5cource\MVC5Course\Views\Home\About.cshtml&amp;quot;&#xD;行 47:     &#xD;行 48:       ViewBag.Title = &amp;quot;About&amp;quot;;&#xD;行 49:   &#xD;行 50:               &#xD;行 51:               #line default&#xD;行 52:               #line hidden&#xD;行 53:   BeginContext(&amp;quot;~/Views/Home/About.cshtml&amp;quot;, 35, 4, true);&#xD;行 54:   &#xD;行 55:   WriteLiteral(&amp;quot;\r\n\r\n&amp;quot;);&#xD;行 56:   &#xD;行 57:   EndContext(&amp;quot;~/Views/Home/About.cshtml&amp;quot;, 35, 4, true);&#xD;行 58:   &#xD;行 59:   DefineSection(&amp;quot;treepath&amp;quot;, () =&amp;gt; {&#xD;行 60:   &#xD;行 61:   BeginContext(&amp;quot;~/Views/Home/About.cshtml&amp;quot;, 57, 16, true);&#xD;行 62:   &#xD;行 63:   WriteLiteral(&amp;quot;\r\n   \r\n    &amp;lt;li&amp;gt; &amp;quot;);&#xD;行 64:   &#xD;行 65:   EndContext(&amp;quot;~/Views/Home/About.cshtml&amp;quot;, 57, 16, true);&#xD;行 66:   &#xD;行 67:   BeginContext(&amp;quot;~/Views/Home/About.cshtml&amp;quot;, 74, 45, false);&#xD;行 68:   &#xD;行 69:               &#xD;行 70:               #line 7 &amp;quot;D:\Projects\Mvc5cource\MVC5Course\Views\Home\About.cshtml&amp;quot;&#xD;行 71:       Write(Html.ActionLink(ViewBag.Title,&amp;quot;About&amp;quot;,&amp;quot;Home&amp;quot;));&#xD;行 72:   &#xD;行 73:               &#xD;行 74:               #line default&#xD;行 75:               #line hidden&#xD;行 76:   EndContext(&amp;quot;~/Views/Home/About.cshtml&amp;quot;, 74, 45, false);&#xD;行 77:   &#xD;行 78:   BeginContext(&amp;quot;~/Views/Home/About.cshtml&amp;quot;, 119, 7, true);&#xD;行 79:   &#xD;行 80:   WriteLiteral(&amp;quot;&amp;lt;/li&amp;gt;\r\n&amp;quot;);&#xD;行 81:   &#xD;行 82:   EndContext(&amp;quot;~/Views/Home/About.cshtml&amp;quot;, 119, 7, true);&#xD;行 83:   &#xD;行 84:   });&#xD;行 85:   &#xD;行 86:   BeginContext(&amp;quot;~/Views/Home/About.cshtml&amp;quot;, 129, 6, true);&#xD;行 87:   &#xD;行 88:   WriteLiteral(&amp;quot;\r\n&amp;lt;h3&amp;gt;&amp;quot;);&#xD;行 89:   &#xD;行 90:   EndContext(&amp;quot;~/Views/Home/About.cshtml&amp;quot;, 129, 6, true);&#xD;行 91:   &#xD;行 92:   BeginContext(&amp;quot;~/Views/Home/About.cshtml&amp;quot;, 136, 15, false);&#xD;行 93:   &#xD;行 94:               &#xD;行 95:               #line 10 &amp;quot;D:\Projects\Mvc5cource\MVC5Course\Views\Home\About.cshtml&amp;quot;&#xD;行 96:   Write(ViewBag.Message);&#xD;行 97:   &#xD;行 98:               &#xD;行 99:               #line default&#xD;行 100:              #line hidden&#xD;行 101:  EndContext(&amp;quot;~/Views/Home/About.cshtml&amp;quot;, 136, 15, false);&#xD;行 102:  &#xD;行 103:  BeginContext(&amp;quot;~/Views/Home/About.cshtml&amp;quot;, 151, 13, true);&#xD;行 104:  &#xD;行 105:  WriteLiteral(&amp;quot;&amp;lt;/h3&amp;gt;\r\n\r\n&amp;lt;h2&amp;gt;&amp;quot;);&#xD;行 106:  &#xD;行 107:  EndContext(&amp;quot;~/Views/Home/About.cshtml&amp;quot;, 151, 13, true);&#xD;行 108:  &#xD;行 109:  BeginContext(&amp;quot;~/Views/Home/About.cshtml&amp;quot;, 165, 13, false);&#xD;行 110:  &#xD;行 111:              &#xD;行 112:              #line 12 &amp;quot;D:\Projects\Mvc5cource\MVC5Course\Views\Home\About.cshtml&amp;quot;&#xD;行 113:  Write(ViewBag.Title);&#xD;行 114:  &#xD;行 115:              &#xD;行 116:              #line default&#xD;行 117:              #line hidden&#xD;行 118:  EndContext(&amp;quot;~/Views/Home/About.cshtml&amp;quot;, 165, 13, false);&#xD;行 119:  &#xD;行 120:  BeginContext(&amp;quot;~/Views/Home/About.cshtml&amp;quot;, 178, 66, true);&#xD;行 121:  &#xD;行 122:  WriteLiteral(&amp;quot;.&amp;lt;/h2&amp;gt;\r\n&amp;lt;p&amp;gt;Use this armea to provide additional information.&amp;lt;/p&amp;gt;\r\n&amp;quot;);&#xD;行 123:  &#xD;行 124:  EndContext(&amp;quot;~/Views/Home/About.cshtml&amp;quot;, 178, 66, true);&#xD;行 125:  &#xD;行 126:          }&#xD;行 127:      }&#xD;行 128:  }&#xD;行 129:  &lt;/pre&gt;&lt;/code&gt;&#xD;&#xA;&#xD;&#xA;                  &lt;/td&gt;&#xD;&#xA;               &lt;/tr&gt;&#xD;&#xA;            &lt;/table&gt;&#xD;&#xA;&#xD;&#xA;            &#xD;&#xA;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&#xD;&#xA;    &lt;script type=&quot;text/javascript&quot;&gt;&#xD;&#xA;    function OnToggleTOCLevel1(level2ID)&#xD;&#xA;    {&#xD;&#xA;      var elemLevel2 = document.getElementById(level2ID);&#xD;&#xA;      if (elemLevel2.style.display == 'none')&#xD;&#xA;      {&#xD;&#xA;        elemLevel2.style.display = '';&#xD;&#xA;      }&#xD;&#xA;      else {&#xD;&#xA;        elemLevel2.style.display = 'none';&#xD;&#xA;      }&#xD;&#xA;    }&#xD;&#xA;    &lt;/script&gt;&#xD;&#xA;                          &lt;br&gt;&lt;br&gt;&#xD;&#xA;&#xD;&#xA;    &lt;/body&gt;&#xD;&#xA;&lt;/html&gt;&#xD;&#xA;">
+  <serverVariables>
+    <item name="ALL_HTTP">
+      <value string="HTTP_CACHE_CONTROL:max-age=0&#xD;&#xA;HTTP_CONNECTION:keep-alive&#xD;&#xA;HTTP_ACCEPT:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8&#xD;&#xA;HTTP_ACCEPT_ENCODING:gzip, deflate, sdch&#xD;&#xA;HTTP_ACCEPT_LANGUAGE:zh-TW,zh;q=0.8,en-US;q=0.6,en;q=0.4,ja;q=0.2,zh-CN;q=0.2&#xD;&#xA;HTTP_COOKIE:__RequestVerificationToken=88UcN_MiCtXkPBTGYVgEcaGMuJIPauhA1Kb4innPCHXQiIVkH3huF213abeWtRNQjN9asPxz0PZMjsM6MNvgv4Tirh-sYsPy2tNsEZXcDjQ1; ASP.NET_SessionId=piqxzmnksgurw3dzieknv5w0&#xD;&#xA;HTTP_HOST:localhost:10681&#xD;&#xA;HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36&#xD;&#xA;HTTP_UPGRADE_INSECURE_REQUESTS:1&#xD;&#xA;" />
+    </item>
+    <item name="ALL_RAW">
+      <value string="Cache-Control: max-age=0&#xD;&#xA;Connection: keep-alive&#xD;&#xA;Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8&#xD;&#xA;Accept-Encoding: gzip, deflate, sdch&#xD;&#xA;Accept-Language: zh-TW,zh;q=0.8,en-US;q=0.6,en;q=0.4,ja;q=0.2,zh-CN;q=0.2&#xD;&#xA;Cookie: __RequestVerificationToken=88UcN_MiCtXkPBTGYVgEcaGMuJIPauhA1Kb4innPCHXQiIVkH3huF213abeWtRNQjN9asPxz0PZMjsM6MNvgv4Tirh-sYsPy2tNsEZXcDjQ1; ASP.NET_SessionId=piqxzmnksgurw3dzieknv5w0&#xD;&#xA;Host: localhost:10681&#xD;&#xA;User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36&#xD;&#xA;Upgrade-Insecure-Requests: 1&#xD;&#xA;" />
+    </item>
+    <item name="APPL_MD_PATH">
+      <value string="/LM/W3SVC/3/ROOT" />
+    </item>
+    <item name="APPL_PHYSICAL_PATH">
+      <value string="D:\Projects\Mvc5cource\MVC5Course\" />
+    </item>
+    <item name="AUTH_TYPE">
+      <value string="" />
+    </item>
+    <item name="AUTH_USER">
+      <value string="" />
+    </item>
+    <item name="AUTH_PASSWORD">
+      <value string="" />
+    </item>
+    <item name="LOGON_USER">
+      <value string="" />
+    </item>
+    <item name="REMOTE_USER">
+      <value string="" />
+    </item>
+    <item name="CERT_COOKIE">
+      <value string="" />
+    </item>
+    <item name="CERT_FLAGS">
+      <value string="" />
+    </item>
+    <item name="CERT_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SERIALNUMBER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CERT_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CONTENT_LENGTH">
+      <value string="0" />
+    </item>
+    <item name="CONTENT_TYPE">
+      <value string="" />
+    </item>
+    <item name="GATEWAY_INTERFACE">
+      <value string="CGI/1.1" />
+    </item>
+    <item name="HTTPS">
+      <value string="off" />
+    </item>
+    <item name="HTTPS_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="INSTANCE_ID">
+      <value string="3" />
+    </item>
+    <item name="INSTANCE_META_PATH">
+      <value string="/LM/W3SVC/3" />
+    </item>
+    <item name="LOCAL_ADDR">
+      <value string="::1" />
+    </item>
+    <item name="PATH_INFO">
+      <value string="/Home/About" />
+    </item>
+    <item name="PATH_TRANSLATED">
+      <value string="D:\Projects\Mvc5cource\MVC5Course\Home\About" />
+    </item>
+    <item name="QUERY_STRING">
+      <value string="" />
+    </item>
+    <item name="REMOTE_ADDR">
+      <value string="::1" />
+    </item>
+    <item name="REMOTE_HOST">
+      <value string="::1" />
+    </item>
+    <item name="REMOTE_PORT">
+      <value string="16863" />
+    </item>
+    <item name="REQUEST_METHOD">
+      <value string="GET" />
+    </item>
+    <item name="SCRIPT_NAME">
+      <value string="/Home/About" />
+    </item>
+    <item name="SERVER_NAME">
+      <value string="localhost" />
+    </item>
+    <item name="SERVER_PORT">
+      <value string="10681" />
+    </item>
+    <item name="SERVER_PORT_SECURE">
+      <value string="0" />
+    </item>
+    <item name="SERVER_PROTOCOL">
+      <value string="HTTP/1.1" />
+    </item>
+    <item name="SERVER_SOFTWARE">
+      <value string="Microsoft-IIS/8.0" />
+    </item>
+    <item name="URL">
+      <value string="/Home/About" />
+    </item>
+    <item name="HTTP_CACHE_CONTROL">
+      <value string="max-age=0" />
+    </item>
+    <item name="HTTP_CONNECTION">
+      <value string="keep-alive" />
+    </item>
+    <item name="HTTP_ACCEPT">
+      <value string="text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8" />
+    </item>
+    <item name="HTTP_ACCEPT_ENCODING">
+      <value string="gzip, deflate, sdch" />
+    </item>
+    <item name="HTTP_ACCEPT_LANGUAGE">
+      <value string="zh-TW,zh;q=0.8,en-US;q=0.6,en;q=0.4,ja;q=0.2,zh-CN;q=0.2" />
+    </item>
+    <item name="HTTP_COOKIE">
+      <value string="__RequestVerificationToken=88UcN_MiCtXkPBTGYVgEcaGMuJIPauhA1Kb4innPCHXQiIVkH3huF213abeWtRNQjN9asPxz0PZMjsM6MNvgv4Tirh-sYsPy2tNsEZXcDjQ1; ASP.NET_SessionId=piqxzmnksgurw3dzieknv5w0" />
+    </item>
+    <item name="HTTP_HOST">
+      <value string="localhost:10681" />
+    </item>
+    <item name="HTTP_USER_AGENT">
+      <value string="Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36" />
+    </item>
+    <item name="HTTP_UPGRADE_INSECURE_REQUESTS">
+      <value string="1" />
+    </item>
+  </serverVariables>
+  <cookies>
+    <item name="__RequestVerificationToken">
+      <value string="88UcN_MiCtXkPBTGYVgEcaGMuJIPauhA1Kb4innPCHXQiIVkH3huF213abeWtRNQjN9asPxz0PZMjsM6MNvgv4Tirh-sYsPy2tNsEZXcDjQ1" />
+    </item>
+    <item name="ASP.NET_SessionId">
+      <value string="piqxzmnksgurw3dzieknv5w0" />
+    </item>
+  </cookies>
+</error>
